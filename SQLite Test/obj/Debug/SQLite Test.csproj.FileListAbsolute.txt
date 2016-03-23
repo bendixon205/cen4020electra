@@ -1,0 +1,8 @@
+c:\users\2592\documents\visual studio 2013\Projects\SQLite Test\SQLite Test\bin\Debug\SQLite Test.exe.config
+c:\users\2592\documents\visual studio 2013\Projects\SQLite Test\SQLite Test\bin\Debug\SQLite Test.exe
+c:\users\2592\documents\visual studio 2013\Projects\SQLite Test\SQLite Test\bin\Debug\SQLite Test.pdb
+c:\users\2592\documents\visual studio 2013\Projects\SQLite Test\SQLite Test\bin\Debug\System.Data.SQLite.dll
+c:\users\2592\documents\visual studio 2013\Projects\SQLite Test\SQLite Test\bin\Debug\System.Data.SQLite.xml
+c:\users\2592\documents\visual studio 2013\Projects\SQLite Test\SQLite Test\obj\Debug\SQLite Test.csprojResolveAssemblyReference.cache
+c:\users\2592\documents\visual studio 2013\Projects\SQLite Test\SQLite Test\obj\Debug\SQLite Test.exe
+c:\users\2592\documents\visual studio 2013\Projects\SQLite Test\SQLite Test\obj\Debug\SQLite Test.pdb
