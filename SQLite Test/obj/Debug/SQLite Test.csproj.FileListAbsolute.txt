@@ -6,3 +6,11 @@ c:\users\2592\documents\visual studio 2013\Projects\SQLite Test\SQLite Test\bin\
 c:\users\2592\documents\visual studio 2013\Projects\SQLite Test\SQLite Test\obj\Debug\SQLite Test.csprojResolveAssemblyReference.cache
 c:\users\2592\documents\visual studio 2013\Projects\SQLite Test\SQLite Test\obj\Debug\SQLite Test.exe
 c:\users\2592\documents\visual studio 2013\Projects\SQLite Test\SQLite Test\obj\Debug\SQLite Test.pdb
+C:\Users\Ben\Documents\GitHub\cen4020electra\SQLite Test\bin\Debug\SQLite Test.exe.config
+C:\Users\Ben\Documents\GitHub\cen4020electra\SQLite Test\obj\Debug\SQLite Test.exe
+C:\Users\Ben\Documents\GitHub\cen4020electra\SQLite Test\obj\Debug\SQLite Test.pdb
+C:\Users\Ben\Documents\GitHub\cen4020electra\SQLite Test\bin\Debug\SQLite Test.exe
+C:\Users\Ben\Documents\GitHub\cen4020electra\SQLite Test\bin\Debug\SQLite Test.pdb
+C:\Users\Ben\Documents\GitHub\cen4020electra\SQLite Test\bin\Debug\System.Data.SQLite.dll
+C:\Users\Ben\Documents\GitHub\cen4020electra\SQLite Test\bin\Debug\System.Data.SQLite.xml
+C:\Users\Ben\Documents\GitHub\cen4020electra\SQLite Test\obj\Debug\SQLite Test.csprojResolveAssemblyReference.cache

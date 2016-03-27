@@ -42,7 +42,7 @@ namespace SQLite_Test
                                 string lastmaint = " ", string nextmaint = " ", string amountofmaint = "0", string customer = " ")
         {
             //Creates a connection to the database
-            SQLiteConnection connection = new SQLiteConnection("Data Source=c:\\Users\\2592\\CEN4020\\cardb.db;Version=3;");
+            SQLiteConnection connection = new SQLiteConnection("Data Source=c:\\Users\\Ben\\CEN4020\\cardb.db;Version=3;");
             //Opens connection to database
             connection.Open();
 
@@ -73,7 +73,7 @@ namespace SQLite_Test
                                         bool package = false, bool orderstatus = false, bool delivered = false, bool lastmaint = false, bool nextmaint = false,
                                         bool amountofmaint = false, bool customer = false, string selectcolumn = "", string rowvalue = "")
         {
-            SQLiteConnection connection = new SQLiteConnection("Data Source=c:\\Users\\2592\\CEN4020\\cardb.db;Version=3;");
+            SQLiteConnection connection = new SQLiteConnection("Data Source=c:\\Users\\Ben\\CEN4020\\cardb.db;Version=3;");
             connection.Open();
             string sql = "select * from carinv " + RowSelection(selectcolumn, rowvalue);
 
@@ -131,7 +131,7 @@ namespace SQLite_Test
         //OVERLOAD deleteinventory - delete string from database
         public void deleteinventory(string column, string row)
         {
-            SQLiteConnection connection = new SQLiteConnection("Data Source=c:\\Users\\2592\\CEN4020\\cardb.db;Version=3;");
+            SQLiteConnection connection = new SQLiteConnection("Data Source=c:\\Users\\Ben\\CEN4020\\cardb.db;Version=3;");
             connection.Open();
             string sql = "delete from carinv where " + column + " = '" + row + "'";
             SQLiteCommand cmd = new SQLiteCommand(sql, connection);
@@ -142,7 +142,7 @@ namespace SQLite_Test
         //OVERLOAD deleteinventory - delete int from database
         public void deleteinventory(string column, int row)
         {
-            SQLiteConnection connection = new SQLiteConnection("Data Source=c:\\Users\\2592\\CEN4020\\cardb.db;Version=3;");
+            SQLiteConnection connection = new SQLiteConnection("Data Source=c:\\Users\\Ben\\CEN4020\\cardb.db;Version=3;");
             connection.Open();
             string sql = "delete from carinv where " + column.ToString() + " = " + row.ToString();
             SQLiteCommand cmd = new SQLiteCommand(sql, connection);
@@ -152,7 +152,7 @@ namespace SQLite_Test
         //OVERLOAD deleteinventory - delete double from database
         public void deleteinventory(string column, double row)
         {
-            SQLiteConnection connection = new SQLiteConnection("Data Source=c:\\Users\\2592\\CEN4020\\cardb.db;Version=3;");
+            SQLiteConnection connection = new SQLiteConnection("Data Source=c:\\Users\\Ben\\CEN4020\\cardb.db;Version=3;");
             connection.Open();
             string sql = "delete from carinv where " + column.ToString() + " = " + row.ToString();
             SQLiteCommand cmd = new SQLiteCommand(sql, connection);
@@ -164,7 +164,7 @@ namespace SQLite_Test
         //OVERLOAD - Input customer name, updating a string
         public void updateinventory(string column, string name, string newvalue)
         {
-            SQLiteConnection connection = new SQLiteConnection("Data Source=c:\\Users\\2592\\CEN4020\\cardb.db;Version=3;");
+            SQLiteConnection connection = new SQLiteConnection("Data Source=c:\\Users\\Ben\\CEN4020\\cardb.db;Version=3;");
             connection.Open();
             string sql = "update carinv set " + column + " = '" + newvalue + "' where customer = '" + name + "'";
             SQLiteCommand cmd = new SQLiteCommand(sql, connection);
@@ -175,7 +175,7 @@ namespace SQLite_Test
         //OVERLOAD - Input car ID, updating a string
         public void updateinventory(string column, int name, string newvalue)
         {
-            SQLiteConnection connection = new SQLiteConnection("Data Source=c:\\Users\\2592\\CEN4020\\cardb.db;Version=3;");
+            SQLiteConnection connection = new SQLiteConnection("Data Source=c:\\Users\\Ben\\CEN4020\\cardb.db;Version=3;");
             connection.Open();
             string sql = "update carinv set " + column + " = '" + newvalue + "' where id = '" + name.ToString() + "'";
             SQLiteCommand cmd = new SQLiteCommand(sql, connection);
@@ -186,7 +186,7 @@ namespace SQLite_Test
         //OVERLOAD - Input customer name, update an integer
         public void updateinventory(string column, string name, int newvalue)
         {
-            SQLiteConnection connection = new SQLiteConnection("Data Source=c:\\Users\\2592\\CEN4020\\cardb.db;Version=3;");
+            SQLiteConnection connection = new SQLiteConnection("Data Source=c:\\Users\\Ben\\CEN4020\\cardb.db;Version=3;");
             connection.Open();
             string sql = "update carinv set " + column + " = " + newvalue.ToString() + " where customer = '" + name + "'";
             SQLiteCommand cmd = new SQLiteCommand(sql, connection);
@@ -197,7 +197,7 @@ namespace SQLite_Test
         //OVERLOAD - Input car id, updating an integer
         public void updateinventory(string column, int name, int newvalue)
         {
-            SQLiteConnection connection = new SQLiteConnection("Data Source=c:\\Users\\2592\\CEN4020\\cardb.db;Version=3;");
+            SQLiteConnection connection = new SQLiteConnection("Data Source=c:\\Users\\Ben\\CEN4020\\cardb.db;Version=3;");
             connection.Open();
             string sql = "update carinv set " + column + " = " + newvalue.ToString() + " where id = '" + name.ToString() + "'";
             SQLiteCommand cmd = new SQLiteCommand(sql, connection);
@@ -207,7 +207,7 @@ namespace SQLite_Test
         //OVERLOAD - Input customer name, update a double
         public void updateinventory(string column, string name, double newvalue)
         {
-            SQLiteConnection connection = new SQLiteConnection("Data Source=c:\\Users\\2592\\CEN4020\\cardb.db;Version=3;");
+            SQLiteConnection connection = new SQLiteConnection("Data Source=c:\\Users\\Ben\\CEN4020\\cardb.db;Version=3;");
             connection.Open();
             string sql = "update carinv set " + column + " = " + newvalue.ToString() + " where customer = '" + name + "'";
             SQLiteCommand cmd = new SQLiteCommand(sql, connection);
@@ -218,7 +218,7 @@ namespace SQLite_Test
         //OVERLOAD - Input car id, updating a double
         public void updateinventory(string column, int name, double newvalue)
         {
-            SQLiteConnection connection = new SQLiteConnection("Data Source=c:\\Users\\2592\\CEN4020\\cardb.db;Version=3;");
+            SQLiteConnection connection = new SQLiteConnection("Data Source=c:\\Users\\Ben\\CEN4020\\cardb.db;Version=3;");
             connection.Open();
             string sql = "update carinv set " + column + " = " + newvalue.ToString() + " where id = '" + name.ToString() + "'";
             SQLiteCommand cmd = new SQLiteCommand(sql, connection);
